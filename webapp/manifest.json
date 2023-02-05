@@ -39,7 +39,7 @@
 
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "GithubSAP-UI5-Fiori-16_Routing.view.View1",
+			"viewName": "GithubSAP-UI5-Fiori-16_Routing.view.App",
 			"type": "XML"
 		},
 		"dependencies": {
@@ -70,6 +70,44 @@
 			"css": [{
 				"uri": "css/style.css"
 			}]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "GithubSAP-UI5-Fiori-16_Routing.view",
+				"controlId": "idApp",
+				"controlAggregation": "pages"
+				
+			},
+			"routes": [{
+				"name": "View1",
+				"target": ["View1"],
+				"pattern" : ""
+				
+			}, {
+				"name": "View2",
+				"target": ["View2"],
+				"pattern" : "view2" 
+				
+			}],
+			"targets": {
+				"View1": {
+					"viewType": "XML",
+					"transition": "flip",
+					"viewName": "View1",
+					"viewId": "View1"
+				
+				},
+				"View2": {
+					"viewType": "XML",
+					"transition": "flip",
+					"viewName": "View2",
+					"viewId": "View2"
+				
+				}
+				
+			}
 		}
 	}
 }
