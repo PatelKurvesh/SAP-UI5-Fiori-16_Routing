@@ -39,5 +39,9 @@ Step 1) Write routing>config>routs>targets code.
 				
 			}
 		}
-		
 </pre>
+
+Step 2) Set initialize in component.js
+<pre>	//enable routing
+		this.getRouter().initialize(); 
+			</pre>
