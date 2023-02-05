@@ -41,7 +41,12 @@ Step 1) Write routing>config>routs>targets code.
 		}
 </pre>
 
-Step 2) Set initialize in component.js
+Step 2) Set initialize in component.js 
+
+component.js is driver of your application.
 <pre>	//enable routing
 		this.getRouter().initialize(); 
 			</pre>
+			
+Step 3) use this class to rout the pages.
+<pre>this.oRouter = sap.ui.core.UIComponent.getRouterFor(this);</pre>
