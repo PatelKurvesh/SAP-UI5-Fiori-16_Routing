@@ -12,7 +12,7 @@ sap.ui.define([
 			this.getView().setModel(oInfo);*/       //no need to write this line for model if you define your model in manifes.json
 			
 			this.oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-			this.oRouter.getRoute("View1");
+			// this.oRouter.getRoute("View1");
 		},
 		
 		onNext : function(oEvent){
