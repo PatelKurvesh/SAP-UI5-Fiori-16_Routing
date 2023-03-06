@@ -10,6 +10,9 @@ sap.ui.define([
 		 * Can be used to modify the View before it is displayed, to bind event handlers and do other one-time initialization.
 		 * @memberOf GithubSAP-UI5-Fiori-16_Routing.view.View2
 		 */
+		//	onInit: function() {
+		//
+		//	},
 			onInit: function() {
 				this.oRouter = sap.ui.core.UIComponent.getRouterFor(this);
 				this.oRouter.getRoute("View2");
@@ -17,6 +20,7 @@ sap.ui.define([
 			onBack : function(){
 				this.oRouter.navTo("View1");          
 			}
+
 
 		/**
 		 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered

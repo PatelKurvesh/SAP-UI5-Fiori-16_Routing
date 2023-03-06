@@ -1,0 +1,117 @@
+{
+  "students": [
+    {
+      "branch": "IT",
+      "name": "John Doe",
+      "rollnumber": "IT001",
+      "mobile": "9876543210"
+    },
+    {
+      "branch": "CE",
+      "name": "Jane Smith",
+      "rollnumber": "CE001",
+      "mobile": "9876543211"
+    },
+    {
+      "branch": "BCA",
+      "name": "Alice Johnson",
+      "rollnumber": "BCA001",
+      "mobile": "9876543212"
+    },
+    {
+      "branch": "IT",
+      "name": "Bob Williams",
+      "rollnumber": "IT002",
+      "mobile": "9876543213"
+    },
+    {
+      "branch": "CE",
+      "name": "Emily Davis",
+      "rollnumber": "CE002",
+      "mobile": "9876543214"
+    },
+    {
+      "branch": "BCA",
+      "name": "David Brown",
+      "rollnumber": "BCA002",
+      "mobile": "9876543215"
+    },
+    {
+      "branch": "IT",
+      "name": "Sarah Lee",
+      "rollnumber": "IT003",
+      "mobile": "9876543216"
+    },
+    {
+      "branch": "CE",
+      "name": "Michael Wilson",
+      "rollnumber": "CE003",
+      "mobile": "9876543217"
+    },
+    {
+      "branch": "BCA",
+      "name": "Karen Martinez",
+      "rollnumber": "BCA003",
+      "mobile": "9876543218"
+    },
+    {
+      "branch": "IT",
+      "name": "Ryan Anderson",
+      "rollnumber": "IT004",
+      "mobile": "9876543219"
+    },
+    {
+      "branch": "CE",
+      "name": "Olivia Taylor",
+      "rollnumber": "CE004",
+      "mobile": "9876543220"
+    },
+    {
+      "branch": "BCA",
+      "name": "Kevin Garcia",
+      "rollnumber": "BCA004",
+      "mobile": "9876543221"
+    },
+    {
+      "branch": "IT",
+      "name": "Ethan Hernandez",
+      "rollnumber": "IT005",
+      "mobile": "9876543222"
+    },
+    {
+      "branch": "CE",
+      "name": "Sophia Martinez",
+      "rollnumber": "CE005",
+      "mobile": "9876543223"
+    },
+    {
+      "branch": "BCA",
+      "name": "Jason Lee",
+      "rollnumber": "BCA005",
+      "mobile": "9876543224"
+    },
+    {
+      "branch": "IT",
+      "name": "Mia Wilson",
+      "rollnumber": "IT006",
+      "mobile": "9876543225"
+    },
+    {
+      "branch": "CE",
+      "name": "William Davis",
+      "rollnumber": "CE006",
+      "mobile": "9876543226"
+    },
+    {
+      "branch": "BCA",
+      "name": "Emma Hernandez",
+      "rollnumber": "BCA006",
+      "mobile": "9876543227"
+    },
+    {
+      "branch": "IT",
+      "name": "Jacob Brown",
+      "rollnumber": "IT007",
+      "mobile": "9876543228"
+    }]
+}
