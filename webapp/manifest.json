@@ -14,7 +14,6 @@
 			"version": "1.40.12"
 		}
 	},
-
 	"sap.ui": {
 		"technology": "UI5",
 		"icons": {
@@ -30,13 +29,8 @@
 			"tablet": true,
 			"phone": true
 		},
-		"supportedThemes": [
-			"sap_hcb",
-			"sap_belize"
-
-		]
+		"supportedThemes": ["sap_hcb", "sap_belize"]
 	},
-
 	"sap.ui5": {
 		"rootView": {
 			"viewName": "GithubSAP-UI5-Fiori-16_Routing.view.App",
@@ -64,6 +58,12 @@
 				"settings": {
 					"bundleName": "GithubSAP-UI5-Fiori-16_Routing.i18n.i18n"
 				}
+			},
+			"": {
+				"type": "sap.ui.model.json.JSONModel",
+				"settings": {},
+				"preload": false,
+				"uri":"model/student.json"
 			}
 		},
 		"resources": {
@@ -78,18 +78,15 @@
 				"viewPath": "GithubSAP-UI5-Fiori-16_Routing.view",
 				"controlId": "idApp",
 				"controlAggregation": "pages"
-				
 			},
 			"routes": [{
 				"name": "View1",
 				"target": ["View1"],
-				"pattern" : ""
-				
+				"pattern": ""
 			}, {
 				"name": "View2",
 				"target": ["View2"],
-				"pattern" : "view2" 
-				
+				"pattern": "view2"
 			}],
 			"targets": {
 				"View1": {
@@ -97,16 +94,13 @@
 					"transition": "flip",
 					"viewName": "View1",
 					"viewId": "View1"
-				
 				},
 				"View2": {
 					"viewType": "XML",
 					"transition": "flip",
 					"viewName": "View2",
 					"viewId": "View2"
-				
 				}
-				
 			}
 		}
 	}

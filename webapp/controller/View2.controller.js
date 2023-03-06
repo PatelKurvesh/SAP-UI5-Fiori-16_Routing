@@ -19,6 +19,17 @@ sap.ui.define([
 			},
 			onBack : function(){
 				this.oRouter.navTo("View1");          
+			},
+			
+			onSearchItem : function(oEvent){
+				var queryString = oEvent.getParameter("query");
+				var oFilter = new sap.ui.model.Filter("branch",sap.ui.model.FilterOperator.Contains,queryString);
+				
+				
+				var aFilter=[oFilter];
+				var student = this.getView().byId("student");
+				
+				student.getBinding("rows").filter(aFilter);
 			}
 
 
