@@ -23,10 +23,18 @@ sap.ui.define([
 			
 			onSearchItem : function(oEvent){
 				var queryString = oEvent.getParameter("query");
-				var oFilter = new sap.ui.model.Filter("branch",sap.ui.model.FilterOperator.Contains,queryString);
+				var oBranch = new sap.ui.model.Filter("branch",sap.ui.model.FilterOperator.Contains,queryString);
+				var oName = new sap.ui.model.Filter("name",sap.ui.model.FilterOperator.Contains,queryString);
+				var oRollnumber = new sap.ui.model.Filter("rollnumber",sap.ui.model.FilterOperator.Contains,queryString);
+				var oMobile = new sap.ui.model.Filter("mobile",sap.ui.model.FilterOperator.Contains,queryString);
+				
+				var masterFilter = new sap.ui.model.Filter({
+					filters:[oBranch,oName,oRollnumber,oMobile],
+					and : false
+				});
 				
 				
-				var aFilter=[oFilter];
+				var aFilter=[masterFilter];
 				var student = this.getView().byId("student");
 				
 				student.getBinding("rows").filter(aFilter);
