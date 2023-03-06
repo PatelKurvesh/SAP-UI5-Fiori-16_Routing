@@ -6,7 +6,15 @@
 					<Button icon="sap-icon://action" press="onNext"></Button>
 				</headerContent>
 				<content>
-					
+					<VBox class="vbox" justifyContent="Center" alignContent="Center" fitContainer="true" alignItems="Center">
+						<items>
+							<Label text="UserName"></Label>
+							<Input id="user" placeholder="Enter your Username"></Input>
+							<Label text="Password"></Label>
+							<Input id="pwd" placeholder="Enter your Password"></Input>
+							<Button text="Login"></Button>
+						</items>
+					</VBox>
 				</content>
 			</Page>
 	
