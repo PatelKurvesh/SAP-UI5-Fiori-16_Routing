@@ -11,8 +11,8 @@
 							<Label text="UserName"></Label>
 							<Input id="user" placeholder="Enter your Username"></Input>
 							<Label text="Password"></Label>
-							<Input id="pwd" placeholder="Enter your Password"></Input>
-							<Button text="Login"></Button>
+							<Input id="pwd" placeholder="Enter your Password" type="Password"></Input>
+							<Button text="Login" press="onLogin"></Button>
 						</items>
 					</VBox>
 				</content>

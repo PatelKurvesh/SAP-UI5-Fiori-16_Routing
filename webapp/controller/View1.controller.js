@@ -17,6 +17,17 @@ sap.ui.define([
 		
 		onNext : function(oEvent){
 			this.oRouter.navTo("View2");
+		},
+		onLogin : function(){
+			var user = this.getView().byId("user").getValue();
+			var pwd = this.getView().byId("pwd").getValue();
+			if(user === "admin" && pwd === "admin"){
+				// sap.m.MessageToast.show("Login Successfully");
+				this.oRouter.navTo("View2");
+				
+			}else{
+				sap.m.MessageToast.show("Error");
+			}
 		}
 
 	});
