@@ -9,9 +9,9 @@
 					<VBox class="vbox" justifyContent="Center" alignContent="Center" fitContainer="true" alignItems="Center">
 						<items>
 							<Label class="label" text="UserName"></Label>
-							<Input id="user" placeholder="Enter your Username"></Input>
+							<Input class="input" id="user" placeholder="Enter your Username"></Input>
 							<Label class="label" text="Password"></Label>
-							<Input id="pwd" placeholder="Enter your Password" type="Password"></Input>
+							<Input class="input" id="pwd" placeholder="Enter your Password" type="Password"></Input>
 							<Button class="btn" text="Login" press="onLogin"></Button>
 						</items>
 					</VBox>
